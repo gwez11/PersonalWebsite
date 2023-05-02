@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+
+  h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  footer{
+    margin-top: 70px;
+  }
+  
+  .main {
+    background-image: url("https://cdn.shopify.com/s/files/1/0219/8280/6088/products/Fonjone__GascogneBeige__12x24_4069c4cb-0e82-4936-a524-2319f154efd0_1200x1200.webp?v=1675213167");
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .main-content {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba
+  }
+
+  .product {
+    font-size: 18px;
+    line-height: 1.5;  
+    margin-top: 50;
+  }
+
+
+  .product-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+
+  .image-res{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.carousel{
+    display: flex;
+    padding-bottom: 5%;
+}
+
+  .carousel-cont{
+    width: 510px;
+    margin: auto;
+    border: 5px solid black;
+    overflow: hidden;
+  }
+  
+  .carousel-cont img {
+    display: block;
+    width: 100%;
+    
+  }
+
+  .carousel-slide {
+    display: flex;
+    height: 500px;
+  }
+
+  .btn {
+    margin-top: 0%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 20px 10px;
+    background: 0;
+    font-size: 35px;
+    cursor: pointer;
+    outline: 0;
+    border: 0px;
+  }
+
+  .btn:hover {
+    background-color: #f1f1f1;
+  }
+
+  .transformAnimation {
+    transition: .4s all ease-in-out;
+  }

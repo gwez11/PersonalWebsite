@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  footer{
+    margin-top: 70px;
+  }
+
+  .product-row {
+    display: flex;
+    justify-content: center;
+    gap: 220px;
+    margin-bottom: 50px;
+  }
+    
+  .product p {
+    font-size: 18px;
+    line-height: 1.5;  
+      
+  }
+
+  
+  .main {
+    background-image: url("https://c.stocksy.com/a/eO7A00/z9/2411716.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .main-content {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba
+  }
+
+

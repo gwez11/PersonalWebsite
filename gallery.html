@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TintCloth - Print Your Photos on Clothes</title>
+  <link rel="stylesheet" href="css/gallery.css">
+  <link rel="stylesheet" href="css/navbar.css">
+
+</head>
+
+<body>
+
+  <div class="navbar">
+    <div class="logo">
+      <a href="index.html">
+        <h1>TintCloth</h1>
+      </a>
+    </div>
+
+
+    <div class="drop">
+      <button class="nav-btn">&#9776</button>
+      <div class="nav-list">
+        <a href="products.html">Products</a>
+        <a href="#">Gallery</a>
+        <a href="about.html">About Us</a>
+      </div>
+    </div>
+
+  </div>
+
+  <section class="main">
+    <div class="main-content">
+      <h1>Gallery</h1>
+      <p>Step into our captivating gallery of printed clothes, where each piece tells a unique story, showcasing the
+        seamless fusion of art and fashion.</p>
+
+    </div>
+  </section>
+
+  <section class="product">
+    <h2>Discover Your Style with TintCloth!</h2>
+    <div class="product-row">
+      <div class="product">
+
+      </div>
+    </div>
+  </section>
+
+
+  <div class="containerMain">
+    <div class="container">
+      <div class="img-container">
+        <div class="img">
+          <img src="images/01.jpg" alt="Baju-TShirt">
+        </div>
+        <div class="img">
+          <img src="images/02.jpg" alt="Eren-Hoodie">
+        </div>
+        <div class="img">
+          <img src="images/03.jpg" alt="Itachi-Hoodie">
+        </div>
+        <div class="img">
+          <img src="images/04.jpg" alt="Itachi-TShirt">
+        </div>
+        <div class="img">
+          <img src="images/05.jpg" alt="Levi-TShirt">
+        </div>
+        <div class="img">
+          <img src="images/06.jpg" alt="Mikey-TShirt">
+        </div>
+        <div class="img">
+          <img src="images/07.jpg" alt="Tokyo Revengers-Tshirt">
+        </div>
+        <div class="img">
+          <img src="images/08.jpg" alt="Team Walhalla-Hoodie">
+        </div>
+        <div class="img">
+          <img src="images/09.jpg" alt="Team Walhalla-TShirt">
+        </div>
+      </div>
+      <div class="pop-up">
+        <span>&times;</span>
+        <img src="images/10.jpg" alt="Team Walhalla-TShirt">
+      </div>
+
+    </div>
+    <script>
+      document.querySelectorAll('.img-container img').forEach(img => {
+        img.onclick = () => {
+          document.querySelector('.pop-up').style.display = 'block';
+          document.querySelector('.pop-up img').src = img.getAttribute('src')
+        }
+      });
+      document.querySelector('.pop-up span').onclick = () =>{
+        document.querySelector('.pop-up').style.display = 'none'
+      }
+    </script>
+  </div>
+
+  <footer>
+    <p>&copy; 2023 TintCloth. All Rights Reserved.</p>
+  </footer>
+
+
+</body>
+
+</html>

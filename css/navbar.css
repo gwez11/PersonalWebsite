@@ -1,0 +1,69 @@
+.logo h1 {
+    color: #fff;
+    margin: 0;
+    font-size: 36px;
+    font-family: 'Castoro Titling', cursive;
+  }
+
+.logo a {
+    text-decoration: none;
+    color: #000;
+  }
+
+.navbar{
+    display: flex;
+    background-color: #36281c; /* Black-brown color */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0px;
+}
+
+.nav-list{
+    display: flex;
+  }
+  
+  .nav-list a {
+    display: block;
+    padding: 1em;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .nav-list a:hover{
+    background-color: #584231;
+    text-decoration: underline;
+  }
+ 
+  .nav-btn{
+    display: none
+  }
+
+  @media (max-width: 1000px) {
+    .nav-btn{
+        font-size: x-large;
+        border: none;
+        background-color: #36281c;
+        color: white;
+        padding-bottom: 5px;
+        display: block;
+        cursor: pointer;
+      }
+      .nav-list{
+        display: none;
+      }
+
+      .nav-btn:hover {
+        background-color: #584231;
+      }
+
+      .drop:hover .nav-list{
+        display: block; 
+        position: absolute;
+        background-color: #36281c;
+        right: 0px;
+      }
+  }
